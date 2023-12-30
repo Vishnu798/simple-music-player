@@ -1,7 +1,6 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:just_audio/just_audio.dart';
 import 'package:music_player_personal/controllers/home_page_controller.dart';
 import 'package:on_audio_query/on_audio_query.dart';
 
@@ -10,6 +9,15 @@ class HomePage extends GetWidget<HomePageController> {
 
   @override
   Widget build(BuildContext context) {
+//    controller.player.playerStateStream.listen((state) {
+//   if (state.playing) {
+//     print("Audio is playing");
+//   } else if (state.processingState == ProcessingState.completed) {
+//     print("Audio has finished");
+//   } else if (state.processingState == ProcessingState.buffering) {
+//     print("Audio is buffering");
+//   } 
+// });
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 181, 88, 228),
