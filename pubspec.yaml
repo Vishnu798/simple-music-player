@@ -39,6 +39,9 @@ dependencies:
   just_audio: ^0.9.36
   get: ^4.6.6
   just_audio_background: ^0.0.1-beta.11
+  firebase_crashlytics: ^3.4.9
+  google_mobile_ads: ^4.0.0
+  firebase_core: ^2.24.2
 
 dev_dependencies:
   flutter_test:

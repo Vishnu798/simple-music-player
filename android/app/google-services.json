@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "496228848572",
+    "project_id": "musicplayerpersonal",
+    "storage_bucket": "musicplayerpersonal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496228848572:android:92826d4f280ec67d04d1b9",
+        "android_client_info": {
+          "package_name": "com.example.music_player_personal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbS0Y1ZBskLPHeKufbB-i9cO5_oIJcCHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
