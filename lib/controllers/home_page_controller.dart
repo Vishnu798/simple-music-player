@@ -131,7 +131,7 @@ class HomePageController extends GetxController {
   }
 
   sortSongByAlphaDec(type){
-    dataFetched.value=false;
+    dataFetched.value=false;      
     fetchSongsFromLocal(sortType: type);
   }
 
